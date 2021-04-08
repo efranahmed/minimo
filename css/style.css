@@ -1,0 +1,282 @@
+/*fonts*/
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+/*fonts*/
+
+/*common start*/
+body{
+	margin:0;
+	padding:0;
+	font-family: 'Playfair Display', serif;
+	font-size:16px;
+	font-weight:400;
+	color:#626262;   
+
+}
+/*common end*/
+/*header start*/
+header{
+	margin:20px 0;
+}
+.container {
+	margin: 0 auto; 
+	width:90%;
+	overflow:hidden;
+}
+/*logo start*/
+.logo {
+	margin-top:13px;  
+	width:13%;
+	float: left;
+}
+.logo a {
+	display:block; 
+}
+.logo img{
+ width:100% 
+}
+/*logo end*/
+/*manu start*/
+.manu {
+	width:65%; 
+	float:right; 
+
+}
+.manu ul {
+	 float: right;
+}
+.manu ul li {  
+    list-style: none;
+    float: left;
+}
+.manu ul li a {
+	margin: 0px 50px;
+	text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    color: #626262;
+    border-bottom:1px solid transparent;
+    padding:3px 3px; 
+}
+.manu ul li:last-child a{
+	margin-right:0; 
+}
+.manu ul li a:hover {
+	border-bottom:1px solid #626262; 
+}
+/*manu end*/
+/*header end*/
+/*banner start*/
+.banner{
+
+}
+.b-image{
+
+}
+.b_image img {
+
+   width:100%; 
+}
+
+
+/*banner end*/
+/*post start*/
+.blog{}
+.rapper{
+	margin:0 auto; 
+    width:80%;
+    padding: 70px 0; 
+}
+.content{
+
+}
+	
+.name{
+	font-family: 'Ubuntu', sans-serif;
+	font-size:16px; 
+	font-weight:300;
+	text-transform:uppercase;  
+	
+}
+.title{
+    font-size: 35px;
+    font-weight: 400;
+	
+}
+.text{
+	line-height: 25px;
+    padding-right: 53px;
+	
+}
+
+/*post end*/
+/*blogs tart*/
+.blog{
+
+    padding-bottom: 3%;
+
+}
+.container2{
+	margin: 0 auto;
+	width:80%; 
+	overflow: hidden;
+}
+.b_content{
+	float: left;
+	width:45%; 
+}
+.b_content:nth-child(even){
+margin-left:8%; 	
+}
+.b_content img{
+	width:100%;
+    margin: 15px 0; 
+}
+.b_text{
+    margin-bottom: 90px;
+
+}
+
+/*blog end*/
+/*newsltter start*/
+.news{
+	padding:70px 0; 
+	background-color:#f0f0f0;  
+}
+.container3{
+	background-color:#f0f0f0;
+}
+.n_content{
+	text-align: center;
+
+}
+.n_content h1{
+   font-size: 35px;
+   font-weight: 400;
+   margin-top: 0;
+   margin-bottom: 70px;
+	
+}
+.n_content form{
+
+
+}
+.n_content form input{
+	font-family: 'Playfair Display', serif;
+	font-size: 14px;
+	width: 367px;
+	height: 23px;
+	border: none;
+	border-bottom: 1px solid #606060;
+	color: #626262;
+	background: transparent;
+	padding-left: 5px; 
+	padding-right: 45px;
+
+	}
+.n_content form input:focus{
+	outline: 0;
+	}   
+
+
+.n_content form button{
+	position: absolute;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	right: 463px;
+
+} 
+.n_content form button img{
+
+}
+.n_content form button:focus{
+	outline: 0;
+	}
+
+/*newsletter end*/
+
+/*endblog start*/
+.end_blog{
+	margin:5% 0; 
+}
+/*copy css*/
+/*endblog end*/
+/*load-more start*/
+.load_more{
+	margin-bottom:10%; 
+}
+.rapper2{
+	text-align: center;
+
+}
+.rapper2 button{
+	font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    background: transparent;
+    color: #626262;
+    border:1px solid #626262;
+    padding: 6px 10px; 
+}
+
+.rapper2 button:focus{
+outline:0; 
+}
+
+/*load-more end*/
+/*footer start*/
+footer{
+	background-color:#f0f0f0; 
+	padding:20px 0; 
+
+}
+.rapper3{
+	margin: 0 auto;
+	width:90%;
+	overflow: hidden;
+
+}
+.f_text{
+	width:35%; 
+	float: left; 
+}
+.f_text ul{
+}
+.f_text ul li{
+	list-style:none;
+	float:left;
+}
+.f_text ul li a{ 
+	margin: 0px 25px;
+	text-decoration:none; 
+	display: inline-block;
+    color: #626262;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.site{
+	width: 20%;
+	float: right; 
+}
+.site ul{
+}
+.site ul li{
+	list-style:none;
+	float:left;
+}
+.site ul li{
+
+}
+.site ul li span{
+	font-size: 14px;
+    font-weight: 400;
+    margin-right: 30px;
+}
+.site ul li a{
+	margin: 0px 10px;
+	text-decoration:none; 
+}
+/*footer end*/
